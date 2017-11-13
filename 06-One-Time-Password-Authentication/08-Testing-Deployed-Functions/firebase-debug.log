@@ -1,0 +1,61 @@
+[debug] [2017-11-13T14:54:53.898Z] ----------------------------------------------------------------------
+[debug] [2017-11-13T14:54:53.900Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\magga\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-11-13T14:54:53.901Z] CLI Version:   3.14.0
+[debug] [2017-11-13T14:54:53.901Z] Platform:      win32
+[debug] [2017-11-13T14:54:53.901Z] Node Version:  v8.4.0
+[debug] [2017-11-13T14:54:53.901Z] Time:          Mon Nov 13 2017 21:54:53 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-13T14:54:53.901Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-13T14:54:53.954Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-13T14:54:53.954Z] > authorizing via signed-in user
+[debug] [2017-11-13T14:54:53.973Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-13T14:54:53.973Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/lClV1QdCB0aY0fMxz-5GD7nrF0fuatYO04biKEPZvlU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Nov 13 2017 21:54:53 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-13T14:54:54.601Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-13T14:54:54.607Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/otp-rn-class  
+ Mon Nov 13 2017 21:54:54 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-13T14:54:56.072Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-13T14:54:56.073Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/otp-rn-class/tokens  
+ Mon Nov 13 2017 21:54:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-13T14:54:57.306Z] <<< HTTP RESPONSE 200
+[info] 1
+[info] 
+[info] === Deploying to 'otp-rn-class'...
+[info] 
+[info] i  deploying functions
+[debug] [2017-11-13T14:55:13.954Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~5.4.2",
+    "firebase-functions": "^0.7.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] [2017-11-13T14:55:13.954Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/otp-rn-class?view=CONSUMER_VIEW  
+ Mon Nov 13 2017 21:55:13 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-13T14:55:13.954Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/otp-rn-class?view=CONSUMER_VIEW  
+ Mon Nov 13 2017 21:55:13 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-13T14:55:15.893Z] <<< HTTP RESPONSE 200
+[info] +  runtimeconfig: all necessary APIs are enabled
+[debug] [2017-11-13T14:55:15.964Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2017-11-13T14:55:15.966Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/otp-rn-class  
+ Mon Nov 13 2017 21:55:15 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-13T14:55:15.968Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/otp-rn-class/apiKeys  
+ Mon Nov 13 2017 21:55:15 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-11-13T14:55:17.806Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-13T14:55:17.808Z] <<< HTTP RESPONSE 200
