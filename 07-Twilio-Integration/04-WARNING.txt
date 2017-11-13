@@ -1,0 +1,3 @@
+Google Cloud Functions only allow you to access outside API's (like Twilio) if you have a paid Firebase account.  You can upgrade your account to a paid 'Blaze' plan to get the Twilio integration working.  The 'Blaze' plan is a 'pay as you go' plan, see here: https://firebase.google.com/pricing/.  In practice, we'll run our google cloud functions only a handful of times, so I fully expect you to be charged $0 for the code we run in this course.
+
+In short, you can add on the Blaze plan with a credit card, then immediately cancel it after we finish testing, and you should not get billed for any significant amount.
