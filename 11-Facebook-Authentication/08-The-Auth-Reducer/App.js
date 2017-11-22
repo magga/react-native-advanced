@@ -34,8 +34,6 @@ export default class App extends React.Component {
     }, {
       tabBarPosition: 'bottom',
       lazy: true,
-      swipeEnabled: false,
-      animationEnabled: false,
       // 11-07
       // We don't want to show the tab bar in the Welcome Screen and Auth Screen
       // So we can hide it using the "navigationOptions" property and set the tabBarVisible
