@@ -1,0 +1,3 @@
+The next section asks you to sign up for an account with the Indeed API. If you have any trouble with signup, just use this API key instead: 
+
+4201738803816157
