@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Job Search",
-    "description": "An app for job search",
-    "slug": "job-search",
+    "name": "jobs",
+    "description": "An empty new project",
+    "slug": "jobs",
     "privacy": "public",
     "sdkVersion": "23.0.0",
     "version": "1.0.0",
@@ -15,11 +15,7 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "id.magga.reactnative.jobsearch"
-    },
-    "android": {
-      "package": "id.magga.reactnative.jobsearch"
+      "supportsTablet": true
     }
   }
 }
